@@ -1,3 +1,4 @@
+import Players.Fighter;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -29,13 +30,13 @@ public class FighterTest {
 
     @Test
     public void canDecreaseHeath(){
-        fighter.setHealthReduced(10);
+        fighter.takeDamage(10);
         assertEquals(90, fighter.getHealth());
     }
 
     @Test
     public void canIncreaseHealth(){
-        fighter.setHealthReduced(20);
+        fighter.takeDamage(20);
         fighter.healed(10);
         assertEquals(90, fighter.getHealth());
     }
@@ -51,6 +52,8 @@ public class FighterTest {
         fighter.increasePurse(10);
         assertEquals(30, fighter.getPurse());
     }
+
+
 
 
 

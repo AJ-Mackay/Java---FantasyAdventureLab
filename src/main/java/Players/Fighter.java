@@ -1,5 +1,7 @@
-public abstract class Fighter extends Player implements IWeapon {
+package Players;
 
+public abstract class Fighter extends Player implements IWeapon {
+    
     private IWeapon weapon;
 
 
