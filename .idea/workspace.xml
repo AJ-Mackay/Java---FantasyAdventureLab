@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="14d2f6ed-6f34-43e3-a69a-4f260bb32e21" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FighterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FighterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Dwarf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enemy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Fighter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/IWeapon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Fighter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Troll.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +78,14 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="519" y="307" width="427" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1585832002482">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="519" y="307" width="427" height="273" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.23.1440.877@0.23.1440.877" timestamp="1585832002482" />
+    <state x="471" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585832196226">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="471" y="197" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877@0.23.1440.877" timestamp="1585832196226" />
     <state width="1358" height="217" key="GridCell.Tab.0.bottom" timestamp="1585829219907">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

@@ -1,7 +1,9 @@
 package Players;
 
+import Behaviours.IWeapon;
+
 public abstract class Fighter extends Player implements IWeapon {
-    
+
     private IWeapon weapon;
 
 
