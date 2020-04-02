@@ -43,4 +43,6 @@ public abstract class Player {
     public void decreasePurse(int price){
         purse -= price;
     }
+
+
 }
