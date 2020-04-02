@@ -1,16 +1,19 @@
 package Players;
 
-import Behaviours.IWeapon;
+import Enemy.Enemy;
+import Weapons.Sword;
 
-public abstract class Fighter extends Player implements IWeapon {
+public abstract class Fighter extends Player {
 
-    private IWeapon weapon;
+    private Sword sword;
 
 
-    public Fighter(String name, int health, int purse, IWeapon weapon) {
+    public Fighter(String name, int health, int purse, Sword sword) {
         super(name, health, purse);
-        this.weapon = weapon;
+        this.sword = sword;
     }
 
-    public abstract void attack();
+    public void attack(Enemy enemy){
+        enemy.takeDamage(sword.getDamage());
+    }
 }

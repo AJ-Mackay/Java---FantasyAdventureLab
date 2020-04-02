@@ -1,15 +1,14 @@
 package Players;
 
-import Behaviours.IWeapon;
+import Behaviours.IAttack;
+import Weapons.Sword;
 
 public class Dwarf extends Fighter {
 
 
-    public Dwarf(String name, int health, int purse, IWeapon weapon) {
-        super(name, health, purse, weapon);
+    public Dwarf(String name, int health, int purse, Sword sword) {
+        super(name, health, purse, sword);
     }
 
-    public void attack() {
 
-    }
 }
