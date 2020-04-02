@@ -1,7 +1,9 @@
 import Enemy.Enemy;
 import Enemy.Troll;
 import Players.Dwarf;
+import Weapons.Axe;
 import Weapons.Sword;
+import Weapons.Weapons;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -10,11 +12,14 @@ import static org.junit.Assert.assertEquals;
 public class DwarfTest {
 
     private Dwarf dwarf;
+    private Weapons currentWeapon;
 
     @Before
     public void before(){
-        Sword sword = new Sword();
-        dwarf = new Dwarf("Zsolt", 100, 20, sword);
+        Sword sword = new Sword(10, "Sword");
+        Axe axe = new Axe(5, "Axe");
+
+        dwarf = new Dwarf("Zsolt", 100, 20, sword, axe, currentWeapon);
     }
 
     @Test
@@ -64,7 +69,11 @@ public class DwarfTest {
         assertEquals(40, enemy.getHealth());
     }
 
-
+    @Test
+    public void getWeapon(){
+        dwarf.changeCurrentWeapon();
+        assertEquals("Axe", dwarf.getCurrentWeapon().getName());
+    }
 
 
 

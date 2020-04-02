@@ -1,14 +1,8 @@
 package Weapons;
 
-public class Sword {
+public class Sword extends Weapons {
 
-    private int damage;
-
-    public Sword(){
-        this.damage = 10;
-    }
-
-    public int getDamage() {
-        return damage;
+    public Sword(int damage, String name) {
+        super(damage, name);
     }
 }
